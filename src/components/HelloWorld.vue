@@ -1,4 +1,5 @@
 <script setup>
+import ToggleButton from '@/components/basic/ToggleButton.vue'
 defineProps({
   msg: {
     type: String,
@@ -15,6 +16,9 @@ defineProps({
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
+    <div>
+      <ToggleButton />
+    </div>
   </div>
 </template>
 
